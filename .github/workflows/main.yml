@@ -1,0 +1,17 @@
+name: Gatsby Publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:        
+          node-version: '14'
+          access-token: ${{ secrets.DEPLOY }}
+          deploy-branch: gh-pages
