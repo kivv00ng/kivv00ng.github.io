@@ -1,6 +1,6 @@
 module.exports = {
   title: "kivv00ng",
-  description: "기록하는 공간입니다.",
+  description: "보통의 개발자를 꿈꾸는 이의 기록공간입니다.",
   author: "kivv00ng",
   siteUrl: "https://kivv00ng.github.io",
   links: {
