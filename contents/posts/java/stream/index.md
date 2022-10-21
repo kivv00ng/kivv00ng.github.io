@@ -1,8 +1,8 @@
 ---
 title: "Stream"
 description: ""
-date: 2021-10-21
-update: 2021-10-21
+date: 2022-10-21
+update: 2022-10-21
 tags:
   - java
 #series: "gatsby-starter-hoodie 로 블로그 시작하기"
@@ -100,23 +100,23 @@ names.stream().map(s -> {
 여기서 스트림파이프 라인의 특징은 종료오퍼레이션이 시작되기 전까지 중개오퍼레이션은 지연(lazy)된다는 것이다.
 종료오퍼레이션이 시작하면 비로소 컬렉션에서 요소가 하나씩 중개오퍼레이션에서 처리되고 종료오퍼레이션까지 오게 된다.
 
-● 0 또는 다수의 중개 오퍼레이션 (intermediate operation)과 한개의 종료 오퍼레이션 (terminal operation)으로 구성한다.
-● 스트림의 데이터 소스는 오직 터미널 오퍼네이션을 실행할 때에만 처리한다.
+- 0 또는 다수의 중개 오퍼레이션 (intermediate operation)과 한개의 종료 오퍼레이션 (terminal operation)으로 구성한다.
+- 스트림의 데이터 소스는 오직 터미널 오퍼네이션을 실행할 때에만 처리한다.
 
 ### 중개 오퍼레이션
 
-● Stream을 리턴한다.
-● Stateless / Stateful 오퍼레이션으로 더 상세하게 구분할 수도 있다.
-(대부분은 Stateless지만,distinct나 sorted처럼 이전 이전 소스 데이터를 참조해야 하는 경우는Stateful 오퍼레이션.)
-● filter, map, limit, skip, sorted, ...
+- Stream을 리턴한다.
+- Stateless / Stateful 오퍼레이션으로 더 상세하게 구분할 수도 있다.
+  (대부분은 Stateless지만,distinct나 sorted처럼 이전 이전 소스 데이터를 참조해야 하는 경우는Stateful 오퍼레이션.)
+- filter, map, limit, skip, sorted, ...
 
 ### 종료 오퍼레이션
 
-● Stream을 리턴하지 않는다.
-● collect, allMatch, count, forEach, min, max, ...
+- Stream을 리턴하지 않는다.
+- collect, allMatch, count, forEach, min, max, ...
 
 ### 참고
 
-https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
+- https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
 
-https://mangkyu.tistory.com/112
+- https://mangkyu.tistory.com/112
