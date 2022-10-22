@@ -17,8 +17,6 @@ jobs:
         with:
         
           node-version: '14'
-          access-token: ${{ secrets.DEPLOY }}
-          deploy-branch: gh-pages
 
         
       - name: Install node packages
