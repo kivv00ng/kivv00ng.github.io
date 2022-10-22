@@ -21,3 +21,14 @@ jobs:
           deploy-branch: gh-pages
 
         
+      - name: Install node packages
+            run: npm install
+            
+      - name: Check lint
+        run: npm run check:lint
+        
+      - name: Check prettier
+        run: npm run check:prettier
+      
+      - name: Build
+        run: npm run build
