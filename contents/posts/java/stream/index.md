@@ -5,7 +5,6 @@ date: 2022-10-21
 update: 2022-10-21
 tags:
   - java
-#series: "gatsby-starter-hoodie 로 블로그 시작하기"
 ---
 
 ## 1.Stream 이란?
