@@ -1,6 +1,6 @@
 ---
 title: "Static"
-description: "자바에서는 왜 상수를 static final로 써야하는가?"
+description: "자바에서는 왜 상수를 static final로 사용하는가?"
 date: 2022-10-27
 update: 2022-10-27
 tags:
