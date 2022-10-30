@@ -123,7 +123,7 @@ class COMPANY{
 
 위 코드 처럼 클래스 형태로 각각의 데이터 타입을 만들어 준다면,  
 비교하는 과정에서 컴파일 에러를 발생시킬 수 있겠죠?  
-하지만 또다른 에러로 switch문에서 컴파일 에러가 발생합니다.  
+하지만 또 다른 에러로 switch문에서 컴파일 에러가 발생합니다.  
 그 이유는 switch문에서 사용할 수 있는 데이터 타입이 다소 제한적이기 때문입니다.  
 (byte,short,char,int,enum,String,Character,Byte,Short,Integer)
 
@@ -172,6 +172,11 @@ public class Main {
 그래서 java측에서 이를 문법적으로 지원한 것이 바로 enum이라고 하네요.
 
 ## Enum 사용 및 특징
+
+### Enum이 지원하는 메소드
+
+![](method.png)
+그 밖에도 일반적으로 class가 지원하는 equals(), compareTo(), toString()등을 제공합니다.
 
 ### 생성자
 
@@ -224,7 +229,7 @@ enum FRUIT{
 
 필드 역시 생성자를 통해 추가가 가능합니다.  
 하지만 각 열거 타입의 상수들이 final로 만들어진 불변 객체들이기 때문에  
-모든 필드 역시 final이어야 합니다.(컴파일 에러는 발생하지 X)
+모든 필드 역시 final이어야 합니다.(컴파일 에러는 발생X)
 
 ![필드명 추가 실행 결과](field_result.png)
 

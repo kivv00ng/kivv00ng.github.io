@@ -1,5 +1,5 @@
 ---
-title: "2주차를 회고"
+title: "2주차 회고"
 description: "데브코스 2주차를 마치고"
 date: 2022-10-29
 update: 2022-10-29
