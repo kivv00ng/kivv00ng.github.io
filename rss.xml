@@ -1,4 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of kivv00ng]]></title><description><![CDATA[기록공간입니다.]]></description><link>https://kivv00ng.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 Oct 2022 11:04:39 GMT</lastBuildDate><item><title><![CDATA[2주차를 회고]]></title><description><![CDATA[이번주 공부하며 느낀점 이번주는 db에 대해서 배웠다.db가 무엇인지에서부터 시작해, 프로시저와 index 성능 튜닝 까지!항상 부족하다고 느꼈던 db…]]></description><link>https://kivv00ng.github.io/2주차/</link><guid isPermaLink="false">https://kivv00ng.github.io/2주차/</guid><pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;이번주 공부하며 느낀점&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of kivv00ng]]></title><description><![CDATA[기록공간입니다.]]></description><link>https://kivv00ng.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 Oct 2022 18:48:48 GMT</lastBuildDate><item><title><![CDATA[정규표현식]]></title><description><![CDATA[정규표현식 이란? 정규 표현식(regular expression, 간단히 regexp 또는 regex) 또는 정규식은 특정한 규칙을 가진 문자열의 집합을 표현하는데 사용하는 형식 언어이다. 작성 방법  예제 예제1 - 전화번호 형식 02-12…]]></description><link>https://kivv00ng.github.io/정규표현식/</link><guid isPermaLink="false">https://kivv00ng.github.io/정규표현식/</guid><pubDate>Mon, 31 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;정규표현식 이란?&lt;/h2&gt;
+&lt;p&gt;정규 표현식(regular expression, 간단히 regexp 또는 regex) 또는 정규식은&lt;br&gt;
+특정한 규칙을 가진 문자열의 집합을 표현하는데 사용하는 형식 언어이다.&lt;/p&gt;
+&lt;h2&gt;작성 방법&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/8294e1f8490db369e44b2652d25bc503/248ed/tableForUse.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 101.76470588235296%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAACmElEQVQ4y52SW2/aQBCF9///mEZKHxqQ0kAIhEsuBKVAMLbxndjmYhHwDTidWWjSkvQBLH2aWe/u8ZkZi9fpCn3FwTiMEc5zBLPsE/48RRitEdC+z2t+z2cZeh9GG7nPCMONcN9WYY2XGE9yOH4icf8QpLBeY6hmhJG3hM1rP4Xuvsn10IowGE2hGDMo5gwiy1JstxukaSIBtvh4dnkSr6AOFYRhgDzPkKUpJpSHgQ/LNKDRnqap0DUNYrVcwXEdOI4N1/WwXq93UtstsZNNEnLtOPCDEFmWYZ2vMZvNMZ1NEU5CWJYFx7Zh0xmRxAn+fnZCO6XNZiNZLpfykmnZCIKAKmGHITzPgzf2YJOYOlSh6SOIKJrDMEZQya5GmHRxqCjodZ/hkeM8z6XDOI5lTJNUxmS/PoQEIxJQsXh7Q7w/zJfZFefcAhZ9j1Qu5+ycnR4iuIR+vy8dDsiZMhzK8gxqtj4aUW5jPB7LHnqeKyvQNR2DgYLFYvEJ4fs+XfBkQy3TkmIeDYl7w6Is5Oz3PNeV/TINA6qq0WBmmM/n/yDkAdOUh2TcO+N+htT46XSKyWTyESdTmbMYV3eI4IuNRgMt4v7uDg8P9+hRC56eOtINT9IlZ18hp3yAUFUV1VqNhB7Q6XQktm3hlfomL1K5/xP8CtHr9VAulVGtVqVoq9XCHTnlHum6fjTi1/Mzbm9rJFhDu92mlxrY9ZCmfQqCRYqFAkpXJdlL/oV63R7Y+SmIx8dHXJFYuVRCs9nEy8sLut3uyYhWq4lisYAfFwVc/rykeIF6o0lTboM/xhUcg+BhFItFKXh9XUalUkG9XpfDYcccj0GwwNm3M5yff5cCTeojC56KKJfLJHaOAjlkt/wB5uam8p4fw2+3OqeIZKqY/QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;tableForUse&apos; title=&apos;tableForUse&apos; src=&apos;/static/8294e1f8490db369e44b2652d25bc503/ca1dc/tableForUse.png&apos; srcset=&apos;/static/8294e1f8490db369e44b2652d25bc503/e7570/tableForUse.png 170w,
+/static/8294e1f8490db369e44b2652d25bc503/f46e7/tableForUse.png 340w,
+/static/8294e1f8490db369e44b2652d25bc503/ca1dc/tableForUse.png 680w,
+/static/8294e1f8490db369e44b2652d25bc503/02d09/tableForUse.png 1020w,
+/static/8294e1f8490db369e44b2652d25bc503/248ed/tableForUse.png 1268w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;예제&lt;/h2&gt;
+&lt;h3&gt;예제1 - 전화번호 형식&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;(02|010)-\d{3,4}-\d{4}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;02-123-1234 또는 010-1234-5678와 같은
+전화번호를 위한 정규표현식이다.
+간단히 말하자면 전화번호 형식이 맞는지 아닌지를 확인하기 위해서
+만드는 패턴인 것이다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(02|010)&lt;/strong&gt;:&lt;br&gt;
+첫 번째 부분을 &apos;( )&apos;을 통해 그룹으로 표현해 주었고,&lt;br&gt;
+해당 부분에서는 전화번호의 앞부분이&lt;br&gt;
+02와 010이 와야한다고 지정한 것이다.&lt;/p&gt;
+&lt;p&gt;&apos;-&apos;는 전화번호를 표현할 때 쓰는 기호이므로 생략하겠다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;\d{3,4}&lt;/strong&gt;:&lt;br&gt;
+&apos;\d&apos;를 통해 숫자임을 표현하여주었고,&lt;br&gt;
+이러한 숫자가 3글자이상 4글자 이하라는 것을 &apos;{3,4}&apos;로 나타내었다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;\d{4}&lt;/strong&gt;
+위와 마찬가지로 &apos;\d&apos;를 통해 숫자임을, 그리고 &apos;{4}&apos;를 통해&lt;br&gt;
+4글자가 와야한다고 표현하였다.&lt;/p&gt;
+&lt;h3&gt;예제2 - 이메일형식&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;\w+@\w+\.\w+(\.\w+)?&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;white@naver.com과 같은 이메을 위한 정규표현식이다.&lt;br&gt;
+&lt;strong&gt;\w+&lt;/strong&gt;:&lt;br&gt;
+&apos;\w&apos;로 한개의 알파벳 또는 숫자을 표현하여 주었고,&lt;br&gt;
+&apos;+&apos;기호를 통해 해당 문자가 한개 이상임을 적시하여 주었다.&lt;/p&gt;
+&lt;p&gt;&apos;@&apos;는 이메일 표현기법이다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;\w+&lt;/strong&gt;: 위와 마찬가지이다.&lt;/p&gt;
+&lt;p&gt;&apos;.&apos;역시 이메일 표현기법이다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;\w+&lt;/strong&gt;: 위와 마찬가지이다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(.\w+)?&lt;/strong&gt;:&lt;br&gt;
+마지막부분은 &apos;.com&apos;과 같은 형식을 그룹으로 만들어서&lt;br&gt;
+&apos;닷(.)&apos;이 두번 들어가는 이메일 형식을 감안한 표현이다.&lt;br&gt;
+&apos;?&apos;를 통해 없거나 한개 나올 수있음을 적시하여 주었다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; regExpCellPhone &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;(02|010)-\\d{3,4}-\\d{4}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; regExpEmail &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;\\w+@\\w+\\.\\w+(\\.\\w+)?&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+       &lt;span class=&quot;token function&quot;&gt;checkRegExp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;regExpCellPhone&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;010-1234-5678&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//정규식과 일치합니다.&lt;/span&gt;
+       &lt;span class=&quot;token function&quot;&gt;checkRegExp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;regExpEmail&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;person@navercom&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//정규식과 일치하지 않습니다.&lt;/span&gt;
+       &lt;span class=&quot;token function&quot;&gt;checkRegExp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;regExpEmail&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;person@naver.com&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//정규식과 일치합니다.&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;checkRegExp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; regExp&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; inputString&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Pattern&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;matches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;regExp&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;inputString&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;정규식과 일치합니다.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;정규식과 일치하지 않습니다.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Pattern, Matcher Class&lt;/h2&gt;
+&lt;p&gt;자바에서는 정규식을 활용해 문자열을 검증, 탐색을 돕는 Pattern, Matcher 클래스를 제공해준다.&lt;/p&gt;
+&lt;h3&gt;Pattern 클래스&lt;/h3&gt;
+&lt;p&gt;Pattern은 정규 표현식이 컴파일된 클래스이다. 정규 표현식에 대상 문자열을 검증하거나,&lt;br&gt;
+활용하기 위해 사용되는 클래스이다.&lt;/p&gt;
+&lt;h4&gt;주요 메소드&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/8985784d33a8915303046dc1b9e5253a/954d4/pattern_method.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 32.94117647058823%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAwklEQVQoz2WRBwrDMBRDc/+TZu+9VJ5BxiUF4R++rOFm0zRpnmeN4yjmdV31PE/E+746jkN932sYhnC2bat938Mu5d73raxpmkBEyICcAqOiKFTXtaqqEnfgLcuibdsijzkjGUDUM8vrunSeZ3CGiEjXdRHwATunCwldxUS+04sk4UlI5oSc1Gb3SZi+gd/MP88kpTZwC+pijtBfwjzPVZZldHYNxCzIn+I0pAXMiNqIGfFPQrulglymYpoQE7cwj/MHPwMfMVRVAPgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;pattern method&apos; title=&apos;pattern method&apos; src=&apos;/static/8985784d33a8915303046dc1b9e5253a/ca1dc/pattern_method.png&apos; srcset=&apos;/static/8985784d33a8915303046dc1b9e5253a/e7570/pattern_method.png 170w,
+/static/8985784d33a8915303046dc1b9e5253a/f46e7/pattern_method.png 340w,
+/static/8985784d33a8915303046dc1b9e5253a/ca1dc/pattern_method.png 680w,
+/static/8985784d33a8915303046dc1b9e5253a/02d09/pattern_method.png 1020w,
+/static/8985784d33a8915303046dc1b9e5253a/9d567/pattern_method.png 1360w,
+/static/8985784d33a8915303046dc1b9e5253a/954d4/pattern_method.png 1718w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Match 클래스&lt;/h3&gt;
+&lt;p&gt;Pattern클래스를 받아 대상 문자열과 패턴이 일치하는 부분을 찾거나 전체 일치 여부 등을 판별하기 위해 사용된다.&lt;/p&gt;
+&lt;h4&gt;주요 메소드&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/c464bd5689f559f6b290a6644e9ad446/010a2/match_method.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 95.29411764705883%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAABYlAAAWJQFJUiTwAAABm0lEQVQ4y32Ui66CQAxE9/9/VHyg+EAF0b05TQ6pBK/JWNjHdHbapfR9X6/XayVO0xR4vV4R3+/3DNedz+fadV19PB5f86Icj8fatm09HA4Rfb/f7/X5fM44nU4xvt/vA6yDNK8BhawqvN1uEZnISsHlcgl1EANUMq8y1wUhRMMwBMZxnJ8zUMQpiACVJGFv3l/4Qzr4fD4/gTptIaJSP+Hgx7rCIIsAaiVfAgL9NQIIVc66gmcUwOPiyxpIxhEFQoxwsHf2kIE137KvVthqq5QxSAFchSxWDaWQr2G328XmpmniWT/Zb49SnEKLQARQkltAMAbBZrMJVVml6iAOD2FGHez6YP/pH8+2DZuyZyBbUyCCFKX/+Yia7XYbxyVCjhDbxv6NKls5jv2rD1GYybKPqHRd0Q9vgC20vKM2NIXRP8cg97bEke2l7NsS3gqSGu0OfHVvYcCJpaqlQtWhytuhsvlrAzvHJIP3cQ0khMyvDSeinZZ7in3EIrKRZe07p9f6KDHvFHRWyIvl976qOPejHnqztElBfkP/AFNyvKVQ8ohIAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;match method&apos; title=&apos;match method&apos; src=&apos;/static/c464bd5689f559f6b290a6644e9ad446/ca1dc/match_method.png&apos; srcset=&apos;/static/c464bd5689f559f6b290a6644e9ad446/e7570/match_method.png 170w,
+/static/c464bd5689f559f6b290a6644e9ad446/f46e7/match_method.png 340w,
+/static/c464bd5689f559f6b290a6644e9ad446/ca1dc/match_method.png 680w,
+/static/c464bd5689f559f6b290a6644e9ad446/02d09/match_method.png 1020w,
+/static/c464bd5689f559f6b290a6644e9ad446/9d567/match_method.png 1360w,
+/static/c464bd5689f559f6b290a6644e9ad446/010a2/match_method.png 1716w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;예시&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; regex &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^[a-zA-Z]$&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 영문자만 존재하는가?&lt;/span&gt;
+&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; input &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Test String&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Pattern&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;matches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;regex&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; input&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//false &amp;lt;= 공백존재&lt;/span&gt;
+
+&lt;span class=&quot;token class-name&quot;&gt;Pattern&lt;/span&gt; pattern &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Pattern&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;regex&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//주어진 정규식을 갖는 패턴을 생성&lt;/span&gt;
+&lt;span class=&quot;token class-name&quot;&gt;Matcher&lt;/span&gt; matcher &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pattern&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;matcher&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;input&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//패턴에 전체 문자열이 일치한 경우 true&lt;/span&gt;
+
+&lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;matcher&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;matches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;//false &amp;lt;= 공백존재&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;참고자료&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=m1KgB90xAfE&quot;&gt;https://www.youtube.com/watch?v=m1KgB90xAfE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://girawhale.tistory.com/77&quot;&gt;https://girawhale.tistory.com/77&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[2주차 회고]]></title><description><![CDATA[이번주 공부하며 느낀점 이번주는 db에 대해서 배웠다.db가 무엇인지에서부터 시작해, 프로시저와 index 성능 튜닝 까지!항상 부족하다고 느꼈던 db…]]></description><link>https://kivv00ng.github.io/2주차/</link><guid isPermaLink="false">https://kivv00ng.github.io/2주차/</guid><pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;이번주 공부하며 느낀점&lt;/h2&gt;
 &lt;p&gt;이번주는 db에 대해서 배웠다.db가 무엇인지에서부터 시작해, 프로시저와 index 성능 튜닝 까지!항상 부족하다고 느꼈던 db에 대해 알 수 있어서 기뻤다.사실 혼자 취업할 때는 코테와 사이드프로젝트를 위한 기술공부 등 할게 너무 많다보니 특정 분야가 부족한걸 알면서도 미루는 경우가 꽤 있었다.하지만 데브코스에 들어오고 나니 이 소속감이 주는 안정감이 굉장히 크다는 것을 느낀다.또 수료까지의 학습 기간이 정해지니,&apos;빨리취업해야지&apos;라는 압박감에서도 벗어나 오로지 학습에 집중할 수 있는 것 같다.뭐 그 밖에도 내가 신뢰하는 기업에서 만든 커리큘럼과 유능한 강사진들의 강의들이 나에게 심리적 안정감을 더해주는 것도 있는 듯하다.
 아무튼 이번 한 주를 보내고 나서 돌이켜보니 다시한번 데브코스에 잘 들어왔다고 생각한다.하하
 아,그리고 중간중간 한기용님의 학습에 대한 본인의 생각과 이를 바탕으로 한 학습 태도를 설명해주시는 것도 굉장히 알찼다.나는 그 설명을 듣자마자 단전에서부터 끓는 내안의 무언가를 느끼기도 했다..후후(이것이 열정..?)&lt;/p&gt;
@@ -273,7 +379,7 @@ apple이라는 변수명이 겹치기 때문에 컴파일 에러가 발생할 �
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;위 코드 처럼 클래스 형태로 각각의 데이터 타입을 만들어 준다면,&lt;br&gt;
 비교하는 과정에서 컴파일 에러를 발생시킬 수 있겠죠?&lt;br&gt;
-하지만 또다른 에러로 switch문에서 컴파일 에러가 발생합니다.&lt;br&gt;
+하지만 또 다른 에러로 switch문에서 컴파일 에러가 발생합니다.&lt;br&gt;
 그 이유는 switch문에서 사용할 수 있는 데이터 타입이 다소 제한적이기 때문입니다.&lt;br&gt;
 (byte,short,char,int,enum,String,Character,Byte,Short,Integer)&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
@@ -327,6 +433,18 @@ class FRUIT{
 사람들이 일반적으로 사용하던 상수 표현 방식이라고 합니다.&lt;br&gt;
 그래서 java측에서 이를 문법적으로 지원한 것이 바로 enum이라고 하네요.&lt;/p&gt;
 &lt;h2&gt;Enum 사용 및 특징&lt;/h2&gt;
+&lt;h3&gt;Enum이 지원하는 메소드&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/1f423f089f2fe02bda2e505f9bd9ef8e/c8d22/method.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 58.82352941176471%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACJklEQVQoz21TaXPaQAz1//83PRJISpuEIRcJJeG2jY0vbAPm8MUNr5Kmpl+6M290rKTZ1ZOU9XqN3W6H7XYryPMcaZpis9kSNqInSSLIsuxi/0/yvXI4HMDnfD6LjKIItm2LzXBdF45jExyEYYDxeCy66zrQdZ1iLbE5J0nifwVPpxOSNEOWr0nmiJNUZL7eiJ5mOSVkohdgX6FLHt0ry+USjUYDcRzDdn1Ufj2gfFvBQDNgjBzcPdRwdX2D8k0F16VbfPl2ha/fS4Kfd1WU2F/+IXGdngqF/+95HvUggx9O0fxo4b3xQcVsWI4ndrevQtUNaLopst3poUvJ/YGOvqqj1e7is9WVOOV4PF56yE31fR+j0Uh0bkNx2K+qGobDofSM+2dSnGGaQiqfA9VSDvv9hRB+aa1WQ71ep2T1UowT+E4dDMg/kKLtdhuapmFAvul0InF7qqUEkxlm8yUmszkikmM/hOP5mEaLC0KKYcxIn0wjcE5IUu4pL6BWFXGK5Ywxsj0hhNH87ODp5Q2m5Yrf8QJ8tnuo1p7x+vYbL/WG6PfVR9SeXvH4XEf9vQmTYhlKt68Ji0PTRrRYYU5YLGN57Wy+EHsVp1iuEvEXOku2WY9pXBarmF4bQWHmPoihke1KL+fzSPrF/SjI8mi4AyIlDMO/Ax7CsiwEgS+DbxgGkZjiTCQq/CU/nMnIMOO8ijyTPPDFtvA6Muu8iiyL9SxWtYhn/AHSc3k4NAoAJAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;method&apos; title=&apos;method&apos; src=&apos;/static/1f423f089f2fe02bda2e505f9bd9ef8e/ca1dc/method.png&apos; srcset=&apos;/static/1f423f089f2fe02bda2e505f9bd9ef8e/e7570/method.png 170w,
+/static/1f423f089f2fe02bda2e505f9bd9ef8e/f46e7/method.png 340w,
+/static/1f423f089f2fe02bda2e505f9bd9ef8e/ca1dc/method.png 680w,
+/static/1f423f089f2fe02bda2e505f9bd9ef8e/02d09/method.png 1020w,
+/static/1f423f089f2fe02bda2e505f9bd9ef8e/c8d22/method.png 1030w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+그 밖에도 일반적으로 class가 지원하는 equals(), compareTo(), toString()등을 제공합니다.&lt;/p&gt;
 &lt;h3&gt;생성자&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;enum&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;FRUIT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token constant&quot;&gt;APPLE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;PEACH&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;BANANA&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -377,7 +495,7 @@ class FRUIT{
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;필드 역시 생성자를 통해 추가가 가능합니다.&lt;br&gt;
 하지만 각 열거 타입의 상수들이 final로 만들어진 불변 객체들이기 때문에&lt;br&gt;
-모든 필드 역시 final이어야 합니다.(컴파일 에러는 발생하지 X)&lt;/p&gt;
+모든 필드 역시 final이어야 합니다.(컴파일 에러는 발생X)&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
     &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 646px; &apos;&gt;
       &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/0183720c2cf6bbf2a6d54681a758e971/3ffe4/field_result.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
