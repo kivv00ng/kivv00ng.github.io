@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of kivv00ng]]></title><description><![CDATA[기록공간입니다.]]></description><link>https://kivv00ng.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 Oct 2022 15:00:07 GMT</lastBuildDate><item><title><![CDATA[2주차를 회고]]></title><description><![CDATA[이번주 공부하며 느낀점 이번주는 db에 대해서 배웠다.db가 무엇인지에서부터 시작해, 프로시저와 index 성능 튜닝 까지!항상 부족하다고 느꼈던 db…]]></description><link>https://kivv00ng.github.io/2주차/</link><guid isPermaLink="false">https://kivv00ng.github.io/2주차/</guid><pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;이번주 공부하며 느낀점&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of kivv00ng]]></title><description><![CDATA[기록공간입니다.]]></description><link>https://kivv00ng.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 Oct 2022 11:04:39 GMT</lastBuildDate><item><title><![CDATA[2주차를 회고]]></title><description><![CDATA[이번주 공부하며 느낀점 이번주는 db에 대해서 배웠다.db가 무엇인지에서부터 시작해, 프로시저와 index 성능 튜닝 까지!항상 부족하다고 느꼈던 db…]]></description><link>https://kivv00ng.github.io/2주차/</link><guid isPermaLink="false">https://kivv00ng.github.io/2주차/</guid><pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;이번주 공부하며 느낀점&lt;/h2&gt;
 &lt;p&gt;이번주는 db에 대해서 배웠다.db가 무엇인지에서부터 시작해, 프로시저와 index 성능 튜닝 까지!항상 부족하다고 느꼈던 db에 대해 알 수 있어서 기뻤다.사실 혼자 취업할 때는 코테와 사이드프로젝트를 위한 기술공부 등 할게 너무 많다보니 특정 분야가 부족한걸 알면서도 미루는 경우가 꽤 있었다.하지만 데브코스에 들어오고 나니 이 소속감이 주는 안정감이 굉장히 크다는 것을 느낀다.또 수료까지의 학습 기간이 정해지니,&apos;빨리취업해야지&apos;라는 압박감에서도 벗어나 오로지 학습에 집중할 수 있는 것 같다.뭐 그 밖에도 내가 신뢰하는 기업에서 만든 커리큘럼과 유능한 강사진들의 강의들이 나에게 심리적 안정감을 더해주는 것도 있는 듯하다.
 아무튼 이번 한 주를 보내고 나서 돌이켜보니 다시한번 데브코스에 잘 들어왔다고 생각한다.하하
 아,그리고 중간중간 한기용님의 학습에 대한 본인의 생각과 이를 바탕으로 한 학습 태도를 설명해주시는 것도 굉장히 알찼다.나는 그 설명을 듣자마자 단전에서부터 끓는 내안의 무언가를 느끼기도 했다..후후(이것이 열정..?)&lt;/p&gt;
@@ -182,16 +182,14 @@ final은 변수가 아닌 상수 값이니 이해하겠는데,왜 하필 static�
 &lt;h2&gt;참조&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests&quot;&gt;https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Enum]]></title><description><![CDATA[Enum 이란? enum은 열거형(enumerated type)이라고 부르며,
-서로 연관된 상수들의 집합이다. Enum의 사용 이유 그렇다면 왜 Enum을 사용할까?
-여러 상수 정의 방법들을 통해 우리는 enum…]]></description><link>https://kivv00ng.github.io/Enum/</link><guid isPermaLink="false">https://kivv00ng.github.io/Enum/</guid><pubDate>Sun, 23 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Enum 이란?&lt;/h2&gt;
-&lt;p&gt;enum은 열거형(enumerated type)이라고 부르며,
-서로 연관된 상수들의 집합이다.&lt;/p&gt;
-&lt;h2&gt;Enum의 사용 이유&lt;/h2&gt;
-&lt;p&gt;그렇다면 왜 Enum을 사용할까?
-여러 상수 정의 방법들을 통해 우리는 enum의 등장 배경과 사용 이유를 알 수 있다.&lt;/p&gt;
-&lt;h3&gt;상수 정의 방법(Enum의 등장 배경)&lt;/h3&gt;
-&lt;h4&gt;1) 단순 변수명&lt;/h4&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Enum]]></title><description><![CDATA[Enum 이란? enum은 열거형(enumerated type)이라고 부르며, 서로 연관된 상수들의 집합입니다. 그렇다면 왜 Enum을 사용할까요? 상수 정의를 하는 여러 방법들을 통해 우리는 enum…]]></description><link>https://kivv00ng.github.io/Enum/</link><guid isPermaLink="false">https://kivv00ng.github.io/Enum/</guid><pubDate>Sun, 23 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Enum 이란?&lt;/h2&gt;
+&lt;p&gt;enum은 열거형(enumerated type)이라고 부르며,&lt;br&gt;
+서로 연관된 상수들의 집합입니다.&lt;br&gt;
+그렇다면 왜 Enum을 사용할까요?&lt;br&gt;
+상수 정의를 하는 여러 방법들을 통해 우리는 enum의 등장 배경과&lt;br&gt;
+사용 이유를 알 수 있습니다.&lt;/p&gt;
+&lt;h2&gt;여러가지 상수 정의 방법(Enum의 등장 배경)&lt;/h2&gt;
+&lt;h3&gt;1) 단순 타입 지정 형태&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;APPLE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;PEACH&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;BANANA&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -211,10 +209,10 @@ final은 변수가 아닌 상수 값이니 이해하겠는데,왜 하필 static�
                 &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;우선 우리는 단순한 변수명으로 상수들을 만들어 보았다.
-하지만 만약 여기서 company 데이터타입으로 google과 apple 변수를 추가하면 어떻게 될까?
-apple이라는 변수명이 겹치기 때문에 컴파일 에러가 발생할 것이다.
-이럴경우 우리는 접두어를 사용할 수도 있다.&lt;/p&gt;
+&lt;p&gt;우선 우리는 단순하게 타입을 int로 지정한 상수들을 만들어 보았습니다.&lt;br&gt;
+하지만 만약 여기서 company 데이터타입으로 google과 apple 변수를 추가하면 어떻게 될까요?&lt;br&gt;
+apple이라는 변수명이 겹치기 때문에 컴파일 에러가 발생할 것입니다.&lt;br&gt;
+따라서 우리는 접두어를 사용할 해야 할 것입니다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;FRUIT_APPLE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;FRUIT_PEACH&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;FRUIT_BANANA&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -222,9 +220,10 @@ apple이라는 변수명이 겹치기 때문에 컴파일 에러가 발생할 �
     &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;COMPANY_GOOGLE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;COMPANY_APPLE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;COMPANY_SAMSUNG&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;컴파일 에러는 해결하였지만,코드가 지저분해 졌다.만약 다른 데이터 타입이 더 추가된다면 가독성면에서는 점점 더 나빠질 것이다.
-그래서 다른 방법으로 인터페이스를 사용하는 경우도 있는데 그것을 사용해 보자.&lt;/p&gt;
-&lt;h4&gt;2) 인터페이스&lt;/h4&gt;
+&lt;p&gt;컴파일 에러는 해결하였지만,코드가 지저분해 졌습니다.&lt;br&gt;
+만약 다른 데이터 타입이 더 추가된다면 가독성면에서는 점점 더 나빠지겠죠?&lt;br&gt;
+그래서 다른 방법으로 인터페이스를 사용하는 경우도 있습니다.&lt;/p&gt;
+&lt;h3&gt;2) 인터페이스&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;FRUIT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;APPLE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;PEACH&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -252,13 +251,15 @@ apple이라는 변수명이 겹치기 때문에 컴파일 에러가 발생할 �
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;인터페이스를 사용하니 이전과 비교해 볼 떄 상대적으로 가독성이 좋아졌다. 하지만 만약 아래의 코드가 추가된다면 어떻게 될까?&lt;/p&gt;
+&lt;p&gt;인터페이스를 사용하니 이전과 비교해 볼 때 상대적으로 가독성이 좋아졌습니다.&lt;br&gt;
+하지만 만약 아래의 코드가 추가된다면 어떻게 될까요?&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;FRUIT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;APPLE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;COMPANY&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;APPLE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
             &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;어라? 이게 비교가 되면 안되는데..&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;우리의 처음 설계목적은 FRUIT 데이터 타입과 COMPANY 데이터 타입이 전혀 다른 것이었다.
-하지만 위의 경우,비교가 가능하여 자칫 의도하지 않은 결과를 초래할 수도 있다.우리는 안정성을 고려하여 이러한 경우 컴파일 에러를 발생시키고 싶다.&lt;/p&gt;
-&lt;h4&gt;3) 클래스&lt;/h4&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;우리는 처음에 FRUIT 데이터 타입과 COMPANY 데이터 타입을 전혀 다른 것으로 설계했습니다.&lt;br&gt;
+하지만 위와 같은 경우,비교가 가능하여 자칫 의도하지 않은 결과를 초래할 수도 있습니다.&lt;br&gt;
+우리는 이러한 경우에 타입 안전성을 고려하여 컴파일 에러를 발생시키고 싶을 것입니다.&lt;/p&gt;
+&lt;h3&gt;3) 클래스&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;FRUIT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;FRUIT&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;APPLE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;FRUIT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;FRUIT&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;PEACH&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;FRUIT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -270,9 +271,10 @@ apple이라는 변수명이 겹치기 때문에 컴파일 에러가 발생할 �
     &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;COMPANY&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;APPLE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;COMPANY&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;COMPANY&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;SAMSUNG&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;COMPANY&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;위 코드 처럼 클래스 형태로 각각의 데이터 타입을 만들어 준다면,비교하는 과정에서 컴파일 에러를 발생시킬 수 있다.
-하지만 switch문에서 컴파일 에러가 발생한다.
-그 이유는 switch문에서 사용할 수 있는 데이터 타입이 다소 제한적이기 때문이다.
+&lt;p&gt;위 코드 처럼 클래스 형태로 각각의 데이터 타입을 만들어 준다면,&lt;br&gt;
+비교하는 과정에서 컴파일 에러를 발생시킬 수 있겠죠?&lt;br&gt;
+하지만 또다른 에러로 switch문에서 컴파일 에러가 발생합니다.&lt;br&gt;
+그 이유는 switch문에서 사용할 수 있는 데이터 타입이 다소 제한적이기 때문입니다.&lt;br&gt;
 (byte,short,char,int,enum,String,Character,Byte,Short,Integer)&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
     &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &apos;&gt;
@@ -287,7 +289,7 @@ apple이라는 변수명이 겹치기 때문에 컴파일 에러가 발생할 �
     &lt;/span&gt;
     &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;class방식 error&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
-&lt;h4&gt;4) Enum&lt;/h4&gt;
+&lt;h3&gt;4) Enum&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/*
 class FRUIT{
     public static final FRUIT APPLE = new FRUIT();
@@ -318,8 +320,12 @@ class FRUIT{
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;드디어 enum 방식으로 변경하여 보았다. 이전 보다 훨씬 간결하게 원하는 바를 달성할 수 있었다.
-사실 위 주석과 새로 추가한 FRUIT enum의 코드의 의미는 같다.그렇다 enum은 클래스이다.위 주석과 같은 클래스 형식의 패턴이 enum 등장 이전까지 사람들이 일반적으로 사용하던 상수 표현 방식이다.그래서 java측에서 이를 문법적으로 지원한 것이 바로 enum인 것이다.(약속)&lt;/p&gt;
+&lt;p&gt;드디어 enum 방식으로 변경하여 보았습니다.&lt;br&gt;
+이전 보다 훨씬 간결하게 원하는 바를 달성할 수 있었네요.&lt;br&gt;
+사실 위 주석과 새로 추가한 FRUIT enum의 코드가 의미하는 바는 같습니다.&lt;br&gt;
+예,사실 enum 역시 클래스입니다.위 주석과 같은 클래스 형식의 패턴이 enum 등장 이전까지&lt;br&gt;
+사람들이 일반적으로 사용하던 상수 표현 방식이라고 합니다.&lt;br&gt;
+그래서 java측에서 이를 문법적으로 지원한 것이 바로 enum이라고 하네요.&lt;/p&gt;
 &lt;h2&gt;Enum 사용 및 특징&lt;/h2&gt;
 &lt;h3&gt;생성자&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;enum&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;FRUIT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -354,16 +360,24 @@ class FRUIT{
     &lt;/span&gt;
     &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;실행 결과&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;클래스형태이기에 위 코드처럼 각 인스턴스의 생성자가 실행되는 것을 볼 수 있다.
-필드 역시 추가 가능하다.&lt;/p&gt;
+&lt;p&gt;enum은 클래스형태이기때문에 생성자 역시 존재합니다.&lt;br&gt;
+하지만 Enum의 생성자는 private으로만 가능하도록 설계되었습니다.&lt;br&gt;
+그렇기 때문에 클라이언트에서는 인스턴스를 직접 생성하거나 확장할 수 없고,&lt;br&gt;
+처음에 지정한 상수들만이 유일한 인스턴스들이 됩니다.&lt;br&gt;
+이는 enum의 인스턴스 생성을 제어하며 외부적으로 하나의 인스턴스만 가지고 사용되기 때문에&lt;br&gt;
+싱글턴 방식이기도 합니다.&lt;/p&gt;
+&lt;h3&gt;필드&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;enum&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;FRUIT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token function&quot;&gt;APPLE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;red&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;PEACH&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;pink&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;BANANA&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;yellow&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; color&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; color&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token function&quot;&gt;FRUIT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; color&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;color &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; color&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Call constructor &quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;, color: &quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;color&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;필드 역시 생성자를 통해 추가가 가능합니다.&lt;br&gt;
+하지만 각 열거 타입의 상수들이 final로 만들어진 불변 객체들이기 때문에&lt;br&gt;
+모든 필드 역시 final이어야 합니다.(컴파일 에러는 발생하지 X)&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
     &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 646px; &apos;&gt;
       &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/0183720c2cf6bbf2a6d54681a758e971/3ffe4/field_result.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
@@ -375,12 +389,16 @@ class FRUIT{
     &lt;/span&gt;
     &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;필드명 추가 실행 결과&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
-&lt;h3&gt;특징&lt;/h3&gt;
-&lt;p&gt;Enum은 클래스이기에 생성자와 필드값 그리고 관련 메서드까지 설정 가능하다.
-하지만 Enum은 고정된 상수값들의 집합이므로 컴파일 타임에 모든 값을 알고 있어야 한다.
-즉,안정성 측면에서 동적으로 값을 정해주거나 변경할 수 없어야 한다는 뜻이다.
-따라서 생성자의 접근제어자는 반드시 private이어야 하며,이는 enum의 인스턴스 생성을 제어하며 외부적으로 사용되기에 싱글톤 방식으로도 볼 수 있다.
-마지막으로, 관련된 상수들을 모아 두는 것은 물론 클래스형태이기에 연관된 메소드나 필드값을 한곳에 저장할 수 있어서 설계 목적 등의 문맥을 담기에도 용이하다.&lt;/p&gt;
+&lt;h2&gt;정리&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;정의&lt;/strong&gt;: 서로 연관된 상수들의 집합&lt;br&gt;
+&lt;strong&gt;사용이유&lt;/strong&gt;: 타입 안전성과 가독성 + 클래스 형태가 주는 강력한 기능들&lt;br&gt;
+&lt;strong&gt;특징&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;싱클턴 방식&lt;/li&gt;
+&lt;li&gt;각 상수들을 해당 타입 class의 &apos;public static final&apos;로 된 인스턴스 필드로 제공&lt;/li&gt;
+&lt;li&gt;클래스형태이기때문에 연관된 메소드나 필드값을 한 곳에 저장할 수 있어서&lt;br&gt;
+설계 목적 등의 문맥을 담기에도 용이&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;참고 자료&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://opentutorials.org/module/516/6091&quot;&gt;https://opentutorials.org/module/516/6091&lt;/a&gt;&lt;/li&gt;
