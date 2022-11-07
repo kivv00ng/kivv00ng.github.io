@@ -233,6 +233,52 @@ enum FRUIT{
 
 ![필드명 추가 실행 결과](field_result.png)
 
+## 활용
+
+이렇게 공부한 Enum을 가지고 계산기 미션에서 활용하여 보았습니다.
+
+```java
+public enum CalculatorType {
+    PLUS('+', (num1, num2) -> num1 + num2),
+    MINUS('-', (num1, num2) -> num1 - num2),
+    MULTIPLY('*', (num1, num2) -> num1 * num2),
+    DIVIDE('/', (num1, num2) -> {
+        isDividedByZero(num2);
+        return num1 / num2;
+    });
+
+    private static final int ZERO_NUMBER = 0;
+    private final char type;
+    private final BinaryOperator<Integer> expression;
+
+    CalculatorType(char type, BinaryOperator<Integer> expression) {
+        this.type = type;
+        this.expression = expression;
+    }
+
+    public Integer calculate(int num1, int num2) {
+        return this.expression.apply(num1, num2);
+    }
+
+    public static CalculatorType selectType(char sign) {
+        return Arrays.stream(CalculatorType.values())
+                .filter(calculatorType -> calculatorType.type == sign)
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("제대로된 사칙연산기호를 입력해 주세요. 입력 값: " + sign));
+    }
+
+    public static boolean containType(char inputType) {
+        return Arrays.stream(CalculatorType.values())
+                .anyMatch(calculatorType -> calculatorType.type == inputType);
+    }
+
+    private static void isDividedByZero(int numberTwo) {
+        if (numberTwo == ZERO_NUMBER) {
+            throw new ArithmeticException("0으로 나눌수 없습니다.");
+        }
+    }
+```
+
 ## 정리
 
 **정의**: 서로 연관된 상수들의 집합  
@@ -243,6 +289,7 @@ enum FRUIT{
 - 각 상수들을 해당 타입 class의 'public static final'로 된 인스턴스 필드로 제공
 - 클래스형태이기때문에 연관된 메소드나 필드값을 한 곳에 저장할 수 있어서  
   설계 목적 등의 문맥을 담기에도 용이
+- 상속X, 이미 Enum클래스는 내부적으로 Enum<T>를 상속 받고 있기 때문
 
 ## 참고 자료
 
