@@ -1,158 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of kivv00ng]]></title><description><![CDATA[기록공간입니다.]]></description><link>https://kivv00ng.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 09 Nov 2022 12:08:44 GMT</lastBuildDate><item><title><![CDATA[[http완벽가이드]01 - 02]]></title><description><![CDATA[1장 http 개관 1.1 http란? HyperText Transfer Protocal의 약자로, 서버와 클라이언트 사이에서 데이터를 주고받는 프로토콜이다.
-예를 들어 우리가 크롬과 같은 웹브라우저를 통해 "http://www.naver.com…]]></description><link>https://kivv00ng.github.io/1주차/</link><guid isPermaLink="false">https://kivv00ng.github.io/1주차/</guid><pubDate>Wed, 09 Nov 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;1장 http 개관&lt;/h2&gt;
-&lt;h3&gt;1.1 http란?&lt;/h3&gt;
-&lt;p&gt;HyperText Transfer Protocal의 약자로, 서버와 클라이언트 사이에서 데이터를 주고받는 프로토콜이다.
-예를 들어 우리가 크롬과 같은 웹브라우저를 통해 &quot;&lt;a href=&quot;http://www.naver.com/index.html&quot;&gt;http://www.naver.com/index.html&lt;/a&gt;&quot; 이라는 페이지를 열어본다고 해보자.
-여기서 우리가 사용하는 크롬 등의 웹브라우저가 클라이언트에 해당하고,이러한 요청을 받은 www.naver.com 서버는 요청된 데이터를 HTTP응답으로 돌려준다.&lt;br&gt;
-(여기서 서버는 요청받은 데이터(/index.html)를 찾고, 성공했다면 그것의 타입, 길이 등의 정보와 함께 http응답에 실어서 클라이언트에게 보낸다.)
-&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
-    &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &apos;&gt;
-      &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 40%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABV0lEQVQoz11ROa7CUAzMwbgDV+AEHCB3oA4FBSlCQUeRpEQUQECBAGIRqSIKhBC72MKSQWPp5fOxNHLs54w9tpYkCb5xvV4RxzEej0cKxrfbDc/nE6/XS2pY+2vMad8JFo/HYwwGA7TbbfR6PXieJ2BM32w24fs+ptMp1us1drsdVqsVttutcGjsejgcBCSkOY6DUqkE0zRRLpcFlUoFhUIBuVwOl8sF+/0ek8kEjUYDs9lMiIVwPp8jiiKZbLFYSJISCTYjKJueUk+nU9rYdV1ks1nU6/VUodbv92HbNqrVKsIwxO8KiPf7/W9nipBTZzIZ1Gq1P0J273a7sjdVeDweZSdBEAharZYo4IT3+z2t63Q6sobhcCgxG2ubzQaj0QiUfj6f5SGfz0PXddldsViEYRiptyxLLq5suVym08uVyaqkqQd1JE7DqUhAqG9Vx3+pkF4RfgB0y0fnfIHa1QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;http예시&apos; title=&apos;http예시&apos; src=&apos;/static/944b9affe105a2ed77e1b8e0bb54e650/ca1dc/http_example.png&apos; srcset=&apos;/static/944b9affe105a2ed77e1b8e0bb54e650/e7570/http_example.png 170w,
-/static/944b9affe105a2ed77e1b8e0bb54e650/f46e7/http_example.png 340w,
-/static/944b9affe105a2ed77e1b8e0bb54e650/ca1dc/http_example.png 680w,
-/static/944b9affe105a2ed77e1b8e0bb54e650/02d09/http_example.png 1020w,
-/static/944b9affe105a2ed77e1b8e0bb54e650/f7f62/http_example.png 1096w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
-    &lt;/span&gt;
-    &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;http예시&lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;(http는 상태저장이 없는(stateless) 프로토콜이다.)&lt;/p&gt;
-&lt;h3&gt;1.2 리소스&lt;/h3&gt;
-&lt;p&gt;웹서버는 웹리소스를 관리하고 제공한다. 웹리소스는 크게 정적파일과 동적 콘텐츠 리소스로 나뉜다.
-정적 파일로는 텍스트파일,html파일,워드파일,pdf,이미지파일,영상 파일등을 포함하고,
-동적 컨텐츠 리소스는 사용자가 누구인지,어떤 정보를 요청했는지, 몇 시인지에 따라 다른 콘텐츠를 생성한다.
-즉,어떤 종류의 콘텐츠 소스도 리소스가 될 수 있다.&lt;/p&gt;
-&lt;h3&gt;1.3 URI&lt;/h3&gt;
-&lt;p&gt;이러한 웹리소스들은 우편물 주소와 같은 URI를 통해 식별가능 하다.
-(URI란 통합자원 식별자(uniform resource identifier)의 약자)
-때문에 클라이언트는 관심있는 리소스를 지목하여 원하는 웹리소스들을 얻을 수 있다.&lt;br&gt;
-이러한 URI는 URL과 URN 이 두가지로 나눌 수 있다.&lt;/p&gt;
-&lt;h4&gt;1.3.1 URL&lt;/h4&gt;
-&lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
-    &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &apos;&gt;
-      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/b6b02e4c2b5e6394012aa7d4767d860d/baa93/URL_example.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
-    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 33.529411764705884%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABhElEQVQoz62QzU7bUBCF/RKoazYsKvURWLBpWXTZqtsseAKegFdo1QVdoEpdtKKLqiuSICQSicgxTgj+CX9BikSAlsiJY1Dj2Nf2x9ihb8BIozM6Z+6ZO6Nd3yvK/ZCD25gsg7/hFUfeAfbIwL0/xPYNLF/nJDBJARVcMr3aIbzZY3q9V2A4qDK7M0TN0H66IxY29ln5dkEev8++8uH7Mmvbbyltv6H0Y1XwNeu770lE/2N+wvj4AmvrFfrnJczNlxx/WeT017u5YW7SPb/E84PCMEkVkZoVouM6jMYeSZZzUbGBdJCpqWDKxZnNvwdf6lja4+K9RpbiDYfMwilpmhYk2Rx8338y+c9lJEkqQ+fU3dAjilVRKyHjOEazbZt6vU65UsFxHMbjMXpTp1arUa1WqQiv63LD0xOCIKDf70ufTbPZlNQxBA8Ng07nSLKDFoYhpmniuq5MT1BK1osiBoMBrVaLRqNR1Pnvcz3HXO/1eliWRbfbpd1uM5lMZJunGz5nPAIpKfs9AyWsYwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;URL예시&apos; title=&apos;URL예시&apos; src=&apos;/static/b6b02e4c2b5e6394012aa7d4767d860d/ca1dc/URL_example.png&apos; srcset=&apos;/static/b6b02e4c2b5e6394012aa7d4767d860d/e7570/URL_example.png 170w,
-/static/b6b02e4c2b5e6394012aa7d4767d860d/f46e7/URL_example.png 340w,
-/static/b6b02e4c2b5e6394012aa7d4767d860d/ca1dc/URL_example.png 680w,
-/static/b6b02e4c2b5e6394012aa7d4767d860d/02d09/URL_example.png 1020w,
-/static/b6b02e4c2b5e6394012aa7d4767d860d/baa93/URL_example.png 1236w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-    &lt;figcaption class=&apos;gatsby-resp-image-figcaption&apos;&gt;URL예시&lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;URL은 통합 자원 지시자(uniform resource locator)의 약자로,리소스 식별자의 가장 흔한 형태이다.
-이러한 URL은 대부분 &apos;스킴&apos;,&apos;서버 주소&apos;,&apos;리소스 위치&apos;라는 표준 포맷을 따른다.첫 번째 부분인 스킴은 리소스에 접근하기 위해 사용되는 프로토콜을 서술한다.두 번째 부분에서는 서버의 인터넷 주소를 제공하고,마지막 세번째 부분에서는 웹 서버의 리소스를 가리킨다.오늘날의 대부분의 URI는 URL이다.&lt;/p&gt;
-&lt;h4&gt;1.3.2 URN&lt;/h4&gt;
-&lt;p&gt;URN은 (Uniform Resource Name)의 줄임말이다.
-URN은 리소스를 어떻게 접근할 것인지(프로토콜을) 명시하지 않고 경로와 리소스 자체를 특정하는 것을 목표로하는 URI이다.&lt;br&gt;
-&lt;strong&gt;책에서 URN은 실험 중인 상태로 나오며(2014년),현재(2022)까지도 그 사용은 찾아보기 힘들다.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;1.4 트랜잭션&lt;/h3&gt;
-&lt;p&gt;http트랜잭션은 요청명령과 응답결과로 구성되어있다.이 상호작용은 그림&apos;http예시&apos;에서&lt;br&gt;
-묘사된 것과 같이 http메시지라고 불리는 정형화된 데이터 덩어리를 이용해 이루어진다.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;HTTP메소드&lt;/th&gt;
-&lt;th&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;GET&lt;/td&gt;
-&lt;td&gt;서버에서 클라이언트로 지정한 리소스를보내라.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;PUT&lt;/td&gt;
-&lt;td&gt;클라이언트에서 서버로 보낸 데이터를 지정한 이름의 리소스로 저정하라.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;DELETE&lt;/td&gt;
-&lt;td&gt;지정한 리소스를 서버에서 삭제해 하라.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;POST&lt;/td&gt;
-&lt;td&gt;클라이언트 데이터를 서버 게이트웨이 애플리케이션으로 보내라.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;HEAD&lt;/td&gt;
-&lt;td&gt;지정한 리소스에 대한 응답에서 HTTP 헤더 부분만 보내라.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;HTTP상태 코드&lt;/th&gt;
-&lt;th&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;200&lt;/td&gt;
-&lt;td&gt;좋다.문서가 바르게 반환되었다.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;300&lt;/td&gt;
-&lt;td&gt;다시 보내라. 다른곳에 가서 리소스를 가져가라.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;404&lt;/td&gt;
-&lt;td&gt;없음.리소스를 찾을 수 없다.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;(실제 메시지 예시)~~&lt;/p&gt;
-&lt;h3&gt;1.5 TCP커넥션&lt;/h3&gt;
-&lt;p&gt;(인터넷 계층~~이미지)
-네트워크 개념상 HTTP는 애플리케이션 계층으로 TCP위 계층이다.&lt;br&gt;
-그래서 HTTP는 자신의 메시지 데이터를 전송하기 위해 TCP 프로토콜을 사용한다.&lt;br&gt;
-&lt;strong&gt;TCP는 다음을 제공한다.&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;오류 없는 데이터 전송&lt;/li&gt;
-&lt;li&gt;순서에 맞는 전달(데이터는 언제나 보낸 순서대로 도착한다)&lt;/li&gt;
-&lt;li&gt;조각나지 않는 데이터 스트림(언제든 어떤 크기로든 보낼 수 있다)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;추가로 HTTP는 TCP/IP 프로토콜을 통해 클라이언트와 서버 사이에 TCP/IP 커넥션을 맺는 등의 과정을 거치는데,
-다음이 그 순서이다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1.웹브라우저는 서버의 URL 에서 호스트 명을 추출한다.
-2.웹브라우저는 서버의 호스트 명을 IP로 변환한다.
-3.웹브라우저는 URL에서 포트번호를 추출한다.
-4.웹브라우저는 웹 서버와 TCP 커넥션을 맺는다.
-5.웹브라우저는 서버에 HTTP 요청을 보낸다.
-6.서버는 웹브라우저에 HTTP 응답을 돌려준다.
-7.커넥션이 닫히면, 웹브라우저는 문서를 보여준다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;1.6 웹의 구성요소&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;프락시: 클라이언트와 서버 사이에 위치한 HTTP 중개자&lt;/li&gt;
-&lt;li&gt;캐시: 많이 찾는 웹페이지를 클라이언트 가까이에 보관하는 HTTP 창고&lt;/li&gt;
-&lt;li&gt;게이트웨이: 다른 애ㅐ플리케이션과 연결된 특별한 웹서버&lt;/li&gt;
-&lt;li&gt;터널: 단순히 HTTP 통신을 전달하기만 하는 특별한 프락시&lt;/li&gt;
-&lt;li&gt;에이전트: 자동화된 HTTP 요청을 만드는 준지능적 웹클라이언트&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;2장 URL과 리소스&lt;/h2&gt;
-&lt;h3&gt;2.1 URL문법&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
-      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/62d2d6cd804eab8dd69dff0d8e2d02ed/47328/URL2.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
-    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 4.705882352941177%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAXElEQVQI1wFRAK7/AGy76v9Sq+D/PaDb/2O05f9asOP/M5rb/6/Kxf+3y8H/KJ3p/6TM1P+eytn/OKPn/2uz1/+wysb/Q6Xl/5W2rP9Mptn/kLi3/1+u1f85nt3/SjU689ZFQr4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;URL2&apos; title=&apos;URL2&apos; src=&apos;/static/62d2d6cd804eab8dd69dff0d8e2d02ed/ca1dc/URL2.png&apos; srcset=&apos;/static/62d2d6cd804eab8dd69dff0d8e2d02ed/e7570/URL2.png 170w,
-/static/62d2d6cd804eab8dd69dff0d8e2d02ed/f46e7/URL2.png 340w,
-/static/62d2d6cd804eab8dd69dff0d8e2d02ed/ca1dc/URL2.png 680w,
-/static/62d2d6cd804eab8dd69dff0d8e2d02ed/02d09/URL2.png 1020w,
-/static/62d2d6cd804eab8dd69dff0d8e2d02ed/9d567/URL2.png 1360w,
-/static/62d2d6cd804eab8dd69dff0d8e2d02ed/47328/URL2.png 1934w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
-      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/9b0d476155ba3aaa7d38fafdc62ca335/1263b/URL.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
-    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 133.52941176470588%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAIAAADzvTiPAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFu0lEQVQ4yyVU6W9UVRR/X2G6YSMdSlkkGKN+8YvGP8D4WeNXEo1GoZ19f/PevH1fZqazz7yZactMp0yntCBtWWoVammlUqDULqRliYUQVIgigkvAeqYmJycn99zf+Z37u+depKW5pbGxuaGh0WRq3L69YctM27aZTKYGWDE1NEG2qXlHS8tLra0v72zb1dGxd//+AwcPvvbmG28hLS07GhqbYZPJ1GTavoXf9n+JxrqZmhoamhubWpoBv6O1tXWn2by7Y8++ffsOvnrwDWR3++729nbzrl1ms7ltZ1vby21mqN9mhqWO9va9ezr279t74MArb77++rvvvP3+e+999OEHHx861Hn4sNflQtI6Vs4JRjeRlAIa4eADR2j355Tz05D9E9z2MXjC9ZmEWY+m5OmztZuLsz/dWXn6y93NZ482N/9Ehnu00YHY8aIykOJ6wqG06Isxrgjt0EmbFrJphF2jHDHeN2Do0+eG1hZm7q3/8PDerb9+e7D54ikymJdOliLFKJUQA928VyMdQrCLC3YygU4O7WLBB7vEkD2pEmO13qszX22s//D4543nTx9tPv8DqeXF4V6tN8HExIDOeGXSyQdtbMDCojYWtTKohanHVolw56LC12NDNxbnftpY//vxz5v/PAFmsVZUijEqKvg12qOQLolwCphdwB38lhdwpxhygo/yWLUndXFy9NbKtWeP7v/792NksCAN5uWMHgpzPpWqIznMxmH2OnPQSvm76ICFDlhpnwXwfSlt4svB5Sszv96//eLZI6RqSMcMKaVhEd4fZn0661OBn3YrtEdlPArlUijwHpl066w/JoeGStnvp848uLP0z+8PkGpBOpaXNNatMW4ZGsaBts4JxmFWkXAAXiScIgFVvALhKhnRb8+duL08/+SXuwCWK4aYjRAZnYTyYsih0LDbIYTgtHaJdMhbYJX2dotYRAgWE/LEiYGV+emH99aRal6u5ERQC5AS6arLG7TCOUFkaIEJWmjUwmI24AxzqEr7NRY9XspdvThx/9YSciyv9OegbThtQKW8oA1ZF8kKGCgBMY87VMYnUV6N8cuUN8Jj/fnui5Mn76zOA7Pan5NjEhaXQyAMtQUAJLkVsJhDJEA5P5jC+HQuoDGBTISfHK3eWJgBZrWcFdMakQ3TGuNjAlYWs3O4HQjrnLS33irjj/BBgIVZNKUycGGna33XZyeRAUMpp8WUSqZ1WiTcuOcI6esivJ24+zDq/CLoOoy7Ie4MebtIn1Vngxmd60moI+XcpW9GkYohlVNiLsIlFYrHXaS3i0HtZADGA8zGoA6VBZFgctEwF4xJRFKljahYLSYvjNeQSlYspwSN9atUgA06MdeROonfirk7Ca8F9wCnhfRZKNQOhRTKn1AoIypVct3nRsrI0QzfmwRaMi4RPOakAzYBh3nwqUwATCI9QsgNlxQVsCiPw55smCvGlf5s5MsBAykl2UI3HeHQuExIhAfIhZBHhw5lMqWzURHnQy4WiqJ2SCm0P6nQ+ah4NKXWeuNIX4zOhUkQM8IFIc3j7phE5uNyXzban4/n40pS49I6FxWJMIeFeRyyKY0txqWKEUYKESKt4lywXljAYch8CZUppvTBo7mhcrFkJHoz0VxMCQukxuARgUhobDrMF2JiOaMiBR1PKyi8mDAbBLVVBs1ExP588uxI9dzJ42dO1CZODY0NV0YGemt92X4j3pvS4VcoxIVKRqqDk6IfXi/l7eIxF6hSynafHx+5Nnt+7frltevzS5dn56fPz019Nfv16W/GhsdrpeFSttrTXTVUJKugCcknky6ZcMNfUYhJwyVj+uyphdmpW0sLP66t3FxeXL12ZXl+7urM1NyFiakzJ84Ml8cHC6cqSSQte+OCBz4tAXPA9BVj0kjZuDA+PD89ubZ4ZWN99d7NG3fXb2ysrdxeXli9Nrd46cJ3k6cunh2aHu//Dx4iSU2qwDWeAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;URL&apos; title=&apos;URL&apos; src=&apos;/static/9b0d476155ba3aaa7d38fafdc62ca335/ca1dc/URL.png&apos; srcset=&apos;/static/9b0d476155ba3aaa7d38fafdc62ca335/e7570/URL.png 170w,
-/static/9b0d476155ba3aaa7d38fafdc62ca335/f46e7/URL.png 340w,
-/static/9b0d476155ba3aaa7d38fafdc62ca335/ca1dc/URL.png 680w,
-/static/9b0d476155ba3aaa7d38fafdc62ca335/1263b/URL.png 1000w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[3주차 회고]]></title><description><![CDATA[New팀 시작 새롭게 new팀을 시작하게 되었다.그간 잘지냈던 pre팀과 흩어진다는 게 아쉽기도했지만,pre…]]></description><link>https://kivv00ng.github.io/3주차/</link><guid isPermaLink="false">https://kivv00ng.github.io/3주차/</guid><pubDate>Sun, 06 Nov 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;New팀 시작&lt;/h2&gt;
-&lt;p&gt;새롭게 new팀을 시작하게 되었다.그간 잘지냈던 pre팀과 흩어진다는 게 아쉽기도했지만,pre팀을 지내며 느꼈던 나의 부족한 부분들을 메꾸고 개선해 나갈 기회가 생겼다는 것에 한편으로 감사하기도 했다.이번에는 팀원들에게 다가가려고 조금더 적극적으로 임해보고,또 코어타임이 끝나더라도 이후에 다시 게더에 접속해서 같이 공부하는 시간도 가져보려고 마음먹었다.그렇게 첫날이 시작되었다.적극적으로 임하자는 마인드때문인지 모르겠으나 많이 들뜬 나의 모습을 스스로도 느낄 수있었다.하지만 재미나게 공부하는 거라며 나 자신을 합리화하고 그냥 아무렇지않게 넘어갔다.그렇게 시간이 흘러 팀면담시간이 되었다.어색한게 싫었던 나는 조금 장난기 있게 대화를 했고,그러한 대화가 반복되자 조금 진중해 지라는 멘토님의 지적을 받았다.그 순간 나는 얼굴이 빨게졌다.많이 부끄럽고 당황하기도 했지만,며칠전에 내 스스로도 많이 들떠 있던걸 느꼈던 지라 내 태도를 다시 되돌아봐야겠다는 생각이 먼저 들었다.이후에 미팅이 끝나고 실제로 되돌아보니 멘토님의 말대로 내가 많이 가볍게 행동했던 것을 꺠달을 수 있었다.그렇게 느끼지 않더라도 멘토님이 이끄는 팀이었기에 변해야되는건 당연했고,또 지금와서 생각해보니 순간의 데이터만을 가지고 말씀하셨던 건 아닌 것 같았다.이전 멘토님에게도 죄송스러웠다.어쩄든 그날 하루는 약간의 감정의 파도를 느껴서 운동도하고 머리를 식히려고 노력했던 것 같다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of kivv00ng]]></title><description><![CDATA[기록공간입니다.]]></description><link>https://kivv00ng.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 26 Nov 2022 14:06:35 GMT</lastBuildDate><item><title><![CDATA[4-6주차 회고]]></title><description><![CDATA[…]]></description><link>https://kivv00ng.github.io/4-6주차/</link><guid isPermaLink="false">https://kivv00ng.github.io/4-6주차/</guid><pubDate>Sat, 26 Nov 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;4주차 코로나&lt;/h2&gt;
+&lt;p&gt;팀이 시작되고 받은피드백들을 적용하느 과정 중 예기치 못하게 코로나가 걸렸다ㅜㅜ
+나는 내가 강철 몸이고, 사실 인류가 발견못한 항체를 소지하고 있는 줄 알았지만 그건 내 엄청난 착각이었다..
+걸린 첫날 새벽부터 하루종일 오한이 오고 몸살기운이 있어 검사 키트를 시도해보았다.결과는 음성이나왔다.
+(사용자 미숙과 코로나변이로 인해 종종 잘못된 결과가 나온다고 한다.)
+나는 결과가 음성이니 단순히 독감으로 간주하고 빠르게 몸이 회복되기위해 수액을 맞으러 병원갔다.
+병원에 가서 전문가의 손으로 정확하게 pcr검사를 해보니 결과는 양성.. 설마설마하다가 깜짝놀랐다..
+그래도 다행히 의사선생님이 아무도없는 방에서 수액을 맞게 해주셔서 감사했다.
+수액을 맞는 1시간 30분 가량 꿀잠을 자고 식은땀을 한바가지 흘렸다.아무래도 잠을 자는동안 내 몸이 바이러스와 열심히 싸워 준 것 같다.신기하게도 수액을 맞고 낮잠을 한숨 자니 몸이 전보다 씻을듯이 개운했다.
+(역시 아플때는 수액이 직빵이다..ㅋ)
+그래도 심적으로나 몸적으로 아직 다 나은게 아니라서, 하루정도 더 쉰 뒤 공부에 집중하게되었다.
+코로나 3일차부터는 새벽까지 공부하고 4-5시간을 자는 등 조금 불편해도 진도를 따라가려 노력했다.
+(이후에 들은 얘기지만 게더에서 보았을 때,멘토님은 내가 코로나라는걸 몰랐다고 하신다ㅋㅋ)
+그렇게 정신없는 4주차를 보냈다..
+코로나에 걸리고, 최대한 열심히 진도와 미션을 따라가려 해도 부족한 실력과 비정상적인 몸상태는 생각보다 나를 더 더디게 했다.&lt;/p&gt;
+&lt;h2&gt;5주차 밀린 과제와 진도&lt;/h2&gt;
+&lt;p&gt;5주차가 시작되었다. 정말 정신없었다.. 3주동안 매주 진행하고 피드백 받아야하는 스프링 미션!&lt;br&gt;
+(5주차에서는 2주차 미션이 진행중이었다.) 그리고 그 후에 바로 이어지는 클론코딩과 개인프로젝트!앞으로 있을 꽉 차있는 4-5주간의 일정과 코로나로인해 밀려있는 현 진도는 나를 자꾸만 조급하게 만들었다.한편으론 앞으로 있을 나머지 미션을 걱정하고,또 다른 한편으로는 현재 진행중이고 더딘 나의 미션 진도를 자책하였다.
+그냥 내 머리속에는 걱정,걱정,걱정..그리고 근심 뿐이었다.
+그래도 잠깐의 휴식타임으로 팀 오프라인 만남을 갖게 되었다.
+운이좋게도 멘토님과 서브멘토님이 시간을 내주어서 함께 만나게 되었다.
+게더에서만 봤던 사람들을 실제로 만나니 처음에는 어색하고 낯설기도 했지만 공통된 주제와 그간 있었던 에피소드들을 나열하다 보니 시간가는줄 모르는 즐거운 시간을 보냈다.(정말정말 행복했다.)
+저녁은 멘토님과 서브멘토님이 가시고 동기들끼리 먹었다.&lt;br&gt;
+이야기하는데 너무 마음이 맞아서 약간의 음주도 하고 우리 모두 결이 맞다는 것에 신기해 했다!(다행히 금요일)
+정말 정신없이 보냈지만 그래도 오프라인 만남으로 끈끈해진 팀과, 멘토님의 칭찬을 잊을 수 없는 한 주였다.
+사실 나는 it 관련해서는 자격지심이 있었다.
+전공자이지만 학부생시절에 매일 음악이랴,편입이랴 전공보다는 다른 곳에 시간을 보내며
+코딩을 거부하고 피해가기만 했기 때문이다.
+뿐만 아니라 운이 좋게도 과에서 잘하는 친구들과 친하게 지냈고,그들의 도움을 받으며 그저 &apos;B&apos;만 받고 졸업만 하자는 마인드였다.잘하는 친구들 사이에서 &apos;나는 코딩을 못한다.&apos;고 인식했고, 전공자이지만 전공에 대해 어떠한 것도 말할 수 없는 당시의 상황이 나를 지금의 자격지심으로 만든 것 같다.
+다시 지금으로 돌아와서, 멘토님이 나에게 너무 자격지심을 갖지 말라고 피드백해 주셨다.
+사실 평소에도 어느정도는 인지하고 있었지만,자격지심의 사전적정의가 스스로 부족함을 느끼는 감정이기에
+성장에도 도움이 될 거라 여기며 방치하고 있긴했다.
+하지만 피드백 당시의 팀원들 반응과 이전 pre팀의 피어리뷰 결과를 토대로 본다면,그 정도가 심한것으로 판단되어서 확실히 고칠필요가 있음을 느꼈다.그렇게 소프트 스킬과 하드스킬을 동시에 고민하던 상황에 멘토님께서 코드리뷰에 자격지심이 기믹(과장된 컨셉등의 특이한 전략을 통해 관심을 끄는 전략(?))이냐며 생각보다 잘한다는 칭찬을 하셨다!
+처음에는 나를 위로해주려고만 하시는 줄 알았다.
+하지만 다른팀에서도 내 이야기를 하신걸 보면 내가 그렇게 못하는 편은 아니었던것 같다!(하하하 신난다 신라면!)
+말도 안돼!내가 알던 현실과 실제 현실은 달랐던 것인가..?
+멘토님과 조금 더 친해져서 이야기해본 결과 정말로 생각보다(음... 자격지심이 있는만큼인가..?)잘했다고 하셨다.
+&lt;strong&gt;아무튼 정신없이 바빴지만, 내가 그리던 세상의 슬픈 부분을 웃으며 수정했던 한 주였다.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;6주차!&lt;/h2&gt;
+&lt;p&gt;내가 코딩에서 자책할 정도의 수준이 아님을 인지하고 기쁘고 들뜬마음으로 한주를 시작했다.
+운이 좋게도 새벽까지 계속 남아있으니, 다른 팀원 분들 몇몇과도 친분을 쌓았다.
+여러사람을 만나면서 느낀 점은 내가 tmi가 많다는 점이었다.그래서 &apos;왜 그럴까?&apos;를 고민해 보았다.
+사실 나는 코로나 유행이 시작되고 2-3년동안 정말 친했던 친구들만 만나고,다른 지인들은 연락이와도 회피했다.
+그렇게 2-3년을 보내니,사회성이 약간은 결여되었고 정리하지 않고 말하는 것이 습관이 되었다.
+(너무 막역한 사이만 만나다 보니 그런 것 같다.)
+돌이켜보니 저번에 진행했던 발표나 다른사람들 앞에서 설명하는 행동을 못하는 것도 위의 영향이 큰 것 같다.
+말하기전에 고민하고 정리한 뒤에 말하는 것을 다음 한 주에는 적용해보는 시간을 가져봐야겠다.&lt;/p&gt;
+&lt;p&gt;아 그리고 이번주 역시 매우 바빴다.저번주가 jdbc관련 공부였다면,&lt;br&gt;
+이번주는 MVC패턴과 restApi 그리고 스프링 예외처리까지!진도를 나가랴 미션을 진행하랴 또 다음주에 있을 오프라인 발표를 준비하랴.. 너무 바쁜 한 주였고, 남은시간도 알차게 보내야한다..(아 개인프로젝트까지!)
+한 주,한 주 내가 부족한 것을 느끼고 해당 부분을 고쳐갈 수 있는 기회가 주어진다는 것에 너무 기쁘고 감사하다.
+또 지금의 환경이 전부 좋은 사람들로 이루어져있어서 내가 고쳐나가는 과정까지 포용해주는 넓디넓은 아량의 사람들을 만나것도 엄청난 행운이라고 생각한다.&lt;/p&gt;
+&lt;p&gt;매일매일 성장하는 나자신이 놀랍고 대견하기도 하며 앞으로의 내가 기대되기도 한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[3주차 회고]]></title><description><![CDATA[New팀 시작 새롭게 new팀을 시작하게 되었다.그간 잘지냈던 pre팀과 흩어진다는 게 아쉽기도했지만,pre…]]></description><link>https://kivv00ng.github.io/3주차/</link><guid isPermaLink="false">https://kivv00ng.github.io/3주차/</guid><pubDate>Sun, 06 Nov 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;New팀 시작&lt;/h2&gt;
+&lt;p&gt;새롭게 new팀을 시작하게 되었다.그간 잘지냈던 pre팀과 흩어진다는 게 아쉽기도했지만,pre팀을 지내며 느꼈던 나의 부족한 부분들을 메꾸고 개선해 나갈 기회가 생겼다는 것에 한편으로 감사하기도 했다.이번에는 팀원들에게 다가가려고 조금더 적극적으로 임해보고,또 코어타임이 끝나더라도 이후에 다시 게더에 접속해서 같이 공부하는 시간도 가져보려고 마음먹었다.그렇게 첫날이 시작되었다.적극적으로 임하자는 마인드때문인지 모르겠으나 많이 들뜬 나의 모습을 스스로도 느낄 수있었다.하지만 재미나게 공부하는 거라며 나 자신을 합리화하고 그냥 아무렇지않게 넘어갔다.그렇게 시간이 흘러 팀면담시간이 되었다.어색한게 싫었던 나는 조금 장난기 있게 대화를 했고,그러한 대화가 반복되자 조금 진중해 지라는 멘토님의 지적을 받았다.그 순간 나는 얼굴이 빨게졌다.많이 부끄럽고 당황하기도 했지만,며칠전에 내 스스로도 많이 들떠 있던걸 느꼈던 지라 내 태도를 다시 되돌아봐야겠다는 생각이 먼저 들었다.이후에 미팅이 끝나고 실제로 되돌아보니 멘토님의 말대로 내가 많이 가볍게 행동했던 것을 깨달을 수 있었다.그렇게 느끼지 않더라도 멘토님이 이끄는 팀이었기에 변해야되는건 당연했고,또 지금와서 생각해보니 순간의 데이터만을 가지고 말씀하셨던 건 아닌 것 같았다.이전 멘토님에게도 죄송스러웠다.어쨌든 그날 하루는 약간의 감정의 파도를 느껴서 운동도하고 머리를 식히려고 노력했던 것 같다.&lt;/p&gt;
 &lt;p&gt;위 사건외에 유익한 시간 또한 있었다.멘토님께서 본인이 취업할 당시의 포토폴리오를 보여주시면서 자신이 어필했던 부분과 장점으로 느껴졌을 만한부분을 짐작해주시며 보여주셨다.거기서 나는 실제로 멘토님이 본인 스스로 느꼈던 문제점이나 불편함을 개선해보려고 개발하셨던게 큰 포인트로 느껴졌다.또 서브 언어를 공부해 보는 것도 하나의 장점이 될 수 있다는 말을 해주셨다.그래서 이번 주부터 나의 실제 불편함을 개선해보고자 간단한 개인프로젝트를 시작해보려고 한다.뭐 프로젝트가 거의 없는 나에게는 반드시 필요한 부분이기도 하고,또 운이좋게도 지금 배우고 있는걸 적용해 볼 수 있는 간단한 프로젝트이다.뿐만 아니라 이후 진도에서 배우는 내용 역시 순차적으로 적용해보며 개선 또한 가능한 것으로 예상하고 있다.&lt;/p&gt;
 &lt;p&gt;아 또 추가적으로 내가 OOP나 좀더 깔끔한 코드를 짜는것에 어려움을 느낀다고 하니,멘토님께서 잘하는 사람들 코드를 많이 보라고 조언해주셨다.생각해보니 맞는 말이었다.나는 현재 남의 코드를 보기에 가장 좋은 환경에 놓여있었다.공부한 내용을 적용해보는 미션이었기에 기능 구현은 그렇게 크게 어렵지 않았고,또 다른 동기들과 같이 진행해나간다는 점에서 그들의 코드들이 한 곳에 모여 있었다.그래서 내가 우선 기능을 구현해보고,좀더 고민해 본 뒤에 잘하는 동기들의 코드를 보며 스스로 좋은점을 얻어가면 되는 것이었다.글을 잘 쓰기위해서 하는 필사로 느껴졌다.&lt;/p&gt;
 &lt;p&gt;이번 주는 전주와 비교해보면 그리 순탄하지만은 않았던 것 같다.하지만 반드시 필요했던 시간이었고,이러한 계기와 깨달음들을 통해서 내가 어떻게 남은 기간들을 지낼지 기대되기도 한다.(사실 걱정반,기대반이다..)
